@@ -1,2 +1,5 @@
-# kokoa-clone
- kokoa-clone-coding-2021
+# kokoa-clone-2021
+
+project with nomadcoders
+
+<a href="./home.html">
