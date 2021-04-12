@@ -1,0 +1,28 @@
+.status-bar {
+  display: flex;
+  justify-content: center;
+  /* 각 status-bar__column의 길이가 달라서 space-between 하면 '시간'이 정 가운데가 아님 */
+  padding: 5px 3px;
+}
+.status-bar__column {
+  width: 33%;
+}
+.status-bar__column:first-child span {
+  margin-right: 3px;
+}
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/* battery에 간격주기 아이콘 지정할때 띄어쓰기 뒷부분만 불러온다*/
+.status-bar__column .fa-battery-three-quarters {
+  margin: 2px 6px 0px 5px;
+}
+.status-bar__column .fa-bolt {
+  margin-top: 2px;
+}

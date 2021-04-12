@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kokoa Talk</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <!-- service icon -->
+            <span>80%</span>
+            <!-- 아이콘 사이즈 변경 : fa-lg, fa-2x -->
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="welcome-header"> <!-- naming following BEM-->
+        <h1 class="welcome-header__title">Welcome to KokoaTalk</h1>
+        <p class="welcome-header__text">If you have a Kokoa Account,<br>log in with your email or phone number</p>
+    </header>
+    <!-- form이 하나뿐이라 id만 붙여줌 -->
+    <form id="login-form">
+        <input type="text" placeholder="Email or Phone number"/>
+        <input type="password" placeholder="Password"/>
+        <input type="submit" value="Log In"/>
+        <input type="submit" value="Sign Up"/>
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
+
+<!-- fontawesome에서 icon 불러오는 js-->
+<script src="https://kit.fontawesome.com/f0971880f8.js" crossorigin="anonymous"></script> 
+</body>
+</html>
