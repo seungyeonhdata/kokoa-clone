@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="screen10.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bigbox">
+        <div class="topbar">
+            <div class="topbar__x"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></div>
+            <div class="topbar__playlist">Playlist</div>
+        </div>
+        <div class="now-playing">
+            <div class="now-playing__pic">
+                <div class="now-playing__pic_box">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                </div>
+            </div>
+            <div class="now-playing__info">
+                <div class="now-playing__info_title">Random Love</div>
+                <span class="now-playing__info_singer">by Divay Kapoor</span>
+            </div>
+        </div>
+        <div class="icons">
+            <div class="icons__basic icons icons__play">
+                <i class="fas fa-play"></i>
+                <div class="icons__play_word">Play</div>
+            </div>
+            <div class="icons__basic icons icons__heart">
+                <i class="far fa-heart"></i>
+            </div>
+            <div class="icons__basic icons icons__plus">
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+        <div class="next-songs">
+            <div class="next-songs_box">    
+                <div class="next-songs__color"></div>
+                <div class="next-songs__info">
+                    <div class="next-songs__title">Matargasti</div>
+                    <span class="next-songs__singer">Mohit Chauhan</span>
+                </div>
+            </div> 
+            <div class="next-songs_box">     
+                <div class="next-songs__color"></div>
+                <div class="next-songs__info">
+                    <div class="next-songs__title">Attitude</div>
+                    <span class="next-songs__singer">Lewis OfMan &#183; Attitude</span>
+                </div> 
+            </div> 
+            <div class="next-songs_box">        
+                <div class="next-songs__color"></div>
+                <div class="next-songs__info">
+                    <div class="next-songs__title">Try Everthing</div>
+                    <span class="next-songs__singer">Shakira &#183; Zootopia</span>
+                </div>
+            </div> 
+            <div class="next-songs_box">    
+                <div class="next-songs__color"></div>
+                <div class="next-songs_info">
+                    <div class="next-songs__title">Sunflower</div>
+                    <span class="next-songs__singer">Joseph Vincent &#183; Sunflower</span>
+                </div>
+            </div>       
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/f0971880f8.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- 다른사람꺼
+  <body>
+    <div class="screen">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <i class="fas fa-times fa-lg"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>Playlist</span>
+        </div>
+      </div>
+
+      <div class="music">
+        <img class="music__image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFB0ZkOH1vkZyWw6CAKfDIn7yWJnJfe5QDaA&usqp=CAU">
+        <div class="music__text">
+          <h2 class="music__title">Random Love</h2>
+          <h4 class="music__singer">by Divay Kapoor</h4>
+        </div>
+      </div>
+
+      <div class="btn-icon">
+        <div class="btn-icon__box">
+          <div class="btn-icon__box--active">
+            <i class="fas fa-play"></i>
+            <span>Play</span>
+          </div>
+          <div class="btn-icon__box--unactive">
+            <i class="fas fa-pause"></i>
+            <span>Pause</span>
+          </div>
+        </div>
+        <div class="btn-icon__box">
+          <div class="btn-icon__box--active">
+            <i class="far fa-heart"></i>
+          </div>
+          <div class="btn-icon__box--unactive">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+        <div class="btn-icon__box">
+          <div class="btn-icon__box--active">
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="btn-icon__box--unactive">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="playlist">
+        <div class="music">
+          <img class="music__image music__image--xs" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYkiyQB1J-DtEEa4EoflA3XqEoWe6VuBqdTw&usqp=CAU">
+          <div class="music__text">
+            <h2 class="music__title music__title--xs">Celebrity</h2>
+            <h4 class="music__singer music__singer--xs">IU</h4>
+          </div>
+        </div>
+
+        <div class="music">
+          <img class="music__image music__image--xs" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp312BdDFqxuHzKd2NMOOxTNszU367WjvJaA&usqp=CAU">
+          <div class="music__text">
+            <h2 class="music__title music__title--xs">Hello</h2>
+            <h4 class="music__singer music__singer--xs">Adele</h4>
+          </div>
+        </div>
+
+        <div class="music">
+          <img class="music__image music__image--xs" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLuzf8q_wOPrQrPpEd82Sgnh0giPWKcWcs8Q&usqp=CAU">
+          <div class="music__text">
+            <h2 class="music__title music__title--xs">주저하는 연인들을 위해</h2>
+            <h4 class="music__singer music__singer--xs">잔나비</h4>
+          </div>
+        </div>
+
+        <div class="music">
+          <img class="music__image music__image--xs" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiTyzQ9ayua_2PpufAyjmyo4tmzrmqXNVHRw&usqp=CAU">
+          <div class="music__text">
+            <h2 class="music__title music__title--xs">Abbey Road</h2>
+            <h4 class="music__singer music__singer--xs">The Beatles</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body> -->
+
+  <!-- 니꼬 정답 
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <i class="fas fa-times"></i>
+        <h1>Playlist</h1>
+      </header>
+      <main>
+        <section class="main-song">
+          <div class="main-song__cover">
+            <i class="far fa-image fa-3x"></i>
+          </div>
+          <div class="main-song__data">
+              <h3 class="main-song__title">We Love 김치!</h3>
+              <h5 class="main-song__author">By Lynn</h5>
+          </div>
+        </section>
+        <section class="btns">
+          <span class="btns__btn btns__btn--big">
+            <i class="fas fa-play fa-xs"></i>
+            <span>Play</span>
+          </span>
+          <span class="btns__btn"><i class="fas fa-heart"></i></span>
+          <span class="btns__btn"><i class="fas fa-plus"></i></span>
+        </section>
+        <ul class="song-list">
+          <li class="song-list__song">
+            <div class="song-list__cover"></div>
+            <div class="song-list__data">
+                <h5>Corona Sucks</h5>
+                <h6>니꼬</h6>
+            </div>
+          </li>
+          <li class="song-list__song">
+            <div class="song-list__cover"></div>
+            <div class="song-list__data">
+                <h5>Corona Sucks</h5>
+                <h6>니꼬</h6>
+            </div>
+          </li>
+          <li class="song-list__song">
+            <div class="song-list__cover"></div>
+            <div class="song-list__data">
+                <h5>Corona Sucks</h5>
+                <h6>니꼬</h6>
+            </div>
+          </li>
+        </ul>
+      </main>
+    </div>
+  </body>
+</html>-->
