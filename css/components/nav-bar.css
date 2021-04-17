@@ -1,0 +1,40 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 0px;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  /* 박스 사이즈를 내가 준 width로 고정->패딩줘도 크기 유지하도록 */
+}
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+.nav__link {
+  position: relative;
+}
+.nav__notification {
+  background-color: tomato;
+  width: 20px;
+  height: 19px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1px;
+  color: white;
+  font-weight: 500;
+  position: absolute;
+  left: 20px;
+  top: -15px;
+}
+.nav__notice {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 32px;
+}
